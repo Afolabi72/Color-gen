@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+html {
+    font-size: 10px;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+
+/* variables */
+
+:root {
+ --Dark-Blue: hsl(233, 26%, 24%);
+--Lime-Green: hsl(136, 65%, 51%);
+--Bright-Cyan: hsl(192, 70%, 51%);
+
+--Grayish-Blue: hsl(233, 8%, 62%);
+--Light-Grayish-Blue: hsl(220, 16%, 96%);
+--Very-Light-Gray: hsl(0, 0%, 98%);
+--White: hsl(0, 0%, 100%);
+
+}
+
+.counter h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.hex {
+    width: 100px;
+    text-align: center;
+    border: 1px solid #fff;
+    margin: 3rem 0;
+    font-size: 20px;
+    padding: .5rem 0;
+    border-radius: 3px;
+    border: 1px solid var(--Grayish-Blue)
+}
+
+
+.counter {
+    width: 400px;
+    background: var(--Bright-Cyan) ;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.counter > div {
+    margin: 3rem  3rem;
+}
+
+
+.color {
+    padding: .5rem;
+    border: 1px solid var(--Grayish-Blue) ;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 3rem 0;
+}
+
+
+.copy {
+    display: block;
+    margin: 1rem auto;
+    font-size: 16px;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+
